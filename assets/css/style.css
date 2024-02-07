@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --text-color: #7d7987;
   --link-color-hover: #1f1534;
@@ -52,6 +58,8 @@ ul li a:hover {
 
 #text-container {
   margin: 109px 119px;
+  max-width: 578px;
+  width: 100%;
 }
 
 h2 {
@@ -87,4 +95,13 @@ button {
 .whatsapp-logo {
   padding-top: 20px;
   padding-right: 10px;
+}
+
+#hero-img {
+  max-width: 493px;
+}
+
+#full-content {
+  display: flex;
+  flex-direction: row;
 }
