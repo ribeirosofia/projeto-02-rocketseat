@@ -1,0 +1,90 @@
+:root {
+  --text-color: #7d7987;
+  --link-color-hover: #1f1534;
+  --title-color: #89c5cc;
+  --btn-color: #69b99d;
+  --btn-text: #f9f9f9;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.logo {
+  width: 103px;
+  margin-top: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  margin: 65px 153px 58px 122px;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+h2 {
+  font-family: "Mulish", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.3px;
+  gap: 48px;
+}
+
+ul li a {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+ul li a:hover {
+  color: var(--link-color-hover);
+  font-weight: 700;
+}
+
+#text-container {
+  margin: 109px 119px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 49px;
+}
+
+#title-span {
+  font-weight: 700;
+  color: var(--title-color);
+}
+
+.paragraph-style {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  color: var(--text-color);
+}
+
+button {
+  margin-top: 48px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  color: var(--btn-text);
+  background-color: var(--btn-color);
+  border: none;
+  height: 56px;
+  width: 179px;
+  padding-bottom: 25px;
+  border-radius: 3px;
+}
+
+.whatsapp-logo {
+  padding-top: 20px;
+  padding-right: 10px;
+}
