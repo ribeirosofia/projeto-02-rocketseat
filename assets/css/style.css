@@ -15,6 +15,13 @@
 
 body {
   margin: 0 auto;
+  background: linear-gradient(
+    180deg,
+    rgba(227, 255, 248, 0) 82.08%,
+    rgba(227, 255, 248, 0.38),
+    100%
+  );
+  min-height: 100vh;
 }
 
 .logo {
@@ -46,7 +53,7 @@ ul {
   gap: 48px;
 }
 
-ul li a {
+nav ul li a {
   color: var(--text-color);
   font-weight: 400;
   font-size: 18px;
@@ -116,5 +123,8 @@ button:hover {
   text-align: center;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
+}
+
+footer {
   margin-bottom: 30px;
 }
