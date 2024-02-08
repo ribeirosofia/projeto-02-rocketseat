@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --text-color: #7d7987;
   --link-color-hover: #1f1534;
@@ -52,6 +58,8 @@ ul li a:hover {
 
 #text-container {
   margin: 109px 119px;
+  max-width: 578px;
+  width: 100%;
 }
 
 h2 {
@@ -65,6 +73,7 @@ h2 {
 }
 
 .paragraph-style {
+  margin-top: 40px;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 28px;
@@ -72,7 +81,7 @@ h2 {
 }
 
 button {
-  margin-top: 48px;
+  margin-top: 68px;
   font-family: "DM Sans", sans-serif;
   font-size: 16px;
   color: var(--btn-text);
@@ -87,4 +96,13 @@ button {
 .whatsapp-logo {
   padding-top: 20px;
   padding-right: 10px;
+}
+
+#hero-img {
+  max-width: 493px;
+}
+
+#full-content {
+  display: flex;
+  flex-direction: row;
 }
