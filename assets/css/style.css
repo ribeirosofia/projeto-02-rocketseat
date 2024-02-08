@@ -10,6 +10,7 @@
   --title-color: #89c5cc;
   --btn-color: #69b99d;
   --btn-text: #f9f9f9;
+  --btn-hover: #4ea788;
 }
 
 body {
@@ -81,21 +82,25 @@ h2 {
 }
 
 button {
-  margin-top: 68px;
   font-family: "DM Sans", sans-serif;
   font-size: 16px;
   color: var(--btn-text);
+  text-transform: uppercase;
   background-color: var(--btn-color);
   border: none;
+  margin-top: 68px;
   height: 56px;
   width: 179px;
-  padding-bottom: 25px;
-  border-radius: 3px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
 }
 
-.whatsapp-logo {
-  padding-top: 20px;
-  padding-right: 10px;
+button:hover {
+  background: var(--btn-hover);
 }
 
 #hero-img {
