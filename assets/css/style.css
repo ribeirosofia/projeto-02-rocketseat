@@ -57,11 +57,13 @@ nav ul li a {
   color: var(--text-color);
   font-weight: 400;
   font-size: 18px;
+  opacity: 0.5;
 }
 
 ul li a:hover {
   color: var(--link-color-hover);
   font-weight: 700;
+  opacity: 1;
 }
 
 #text-container {
