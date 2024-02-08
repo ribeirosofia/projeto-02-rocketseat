@@ -130,3 +130,9 @@ button:hover {
 footer {
   margin-bottom: 30px;
 }
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
